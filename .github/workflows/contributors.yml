@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    types: [closed]
 
 jobs:
   update-contributors:
@@ -15,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate contributors list
-        uses: akhilmhdh/contributors-readme-action@v2.3.10
+        uses: akhilmhdh/contributors-readme-action@<COMMIT_SHA>
         with:
           image_size: 100
           use_username: false

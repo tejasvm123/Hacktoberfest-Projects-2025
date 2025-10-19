@@ -7,6 +7,7 @@ Welcome to the **Hacktoberfest Projects** repository! This is a place where deve
 - [About the Repository](#about-the-repository)
 - [How to Get Started](#how-to-get-started)
 - [How to Contribute](#how-to-contribute)
+- [Past Contributors](#contributors)
 - [License](#license)
 
 ## About the Repository
@@ -131,7 +132,6 @@ git push origin your-project-name
         <span title="Code">💻</span>
       </td>
     </tr>
-
     <!-- Second Row -->
     <tr>
       <td align="center" valign="top" width="14.28%">

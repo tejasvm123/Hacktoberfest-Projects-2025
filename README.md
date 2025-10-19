@@ -74,11 +74,15 @@ git push origin your-project-name
 - Follow best coding practices.
 - Provide a brief description of your project in the Pull Request.
 
-## Contributors
+[![Contributors](https://img.shields.io/github/contributors/gitsofaryan/Hacktoberfest-Projects-2025?style=for-the-badge)](https://github.com/gitsofaryan/Hacktoberfest-Projects-2025/graphs/contributors)
 
-<!-- ALL-CONTRIBUTORS-LIST:START -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- Contributors avatars (auto-updating) -->
+<p align="left">
+  <a href="https://github.com/gitsofaryan/Hacktoberfest-Projects-2025/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=gitsofaryan/Hacktoberfest-Projects-2025" alt="Contributors" />
+  </a>
+</p>
 
----
+See the full list of contributors and their contributions on the [`GitHub Contributors Graph`](https://github.com/gitsofaryan/Hacktoberfest-Projects-2025/graphs/contributors).
 
 ### Thank you for contributing to the Hacktoberfest Projects repository! We’re excited to see your projects and hope this helps you grow as a developer. Happy coding!

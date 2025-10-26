@@ -1,0 +1,14 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+# Other
+.DS_Store

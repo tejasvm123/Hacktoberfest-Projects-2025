@@ -9,7 +9,6 @@ bank
 bat
 project
 program
-python
 profile
 java
 javascript

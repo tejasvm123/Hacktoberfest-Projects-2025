@@ -23,6 +23,9 @@ public class SearchSuggestions {
     }
 
     public void insert(String word) {
+        if (word == null || word.isEmpty()) {
+            return;
+        }
         TrieNode node = root;
         for (char c : word.toLowerCase().toCharArray()) {
             node = node.children.computeIfAbsent(c, k -> new TrieNode());
@@ -31,6 +34,9 @@ public class SearchSuggestions {
     }
 
     public List<String> getSuggestions(String prefix) {
+        if (prefix == null) {
+            return Collections.emptyList();
+        }
         String lowerPrefix = prefix.toLowerCase();
         TrieNode node = root;
 
@@ -97,7 +103,7 @@ public class SearchSuggestions {
         
         System.out.println("Successfully loaded " + wordCount + " words.");
 
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
 
         while (true) {
             System.out.print("\nEnter prefix to search (or 'q' to quit): ");
@@ -118,8 +124,7 @@ public class SearchSuggestions {
                 }
             }
         }
-
-        scanner.close();
-        System.out.println("Goodbye!");
+    }
+    System.out.println("Goodbye!");
     }
 }
